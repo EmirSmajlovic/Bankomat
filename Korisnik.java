@@ -14,6 +14,7 @@ public class Korisnik {
 	private static boolean jeliNegativnoStanje = false;
 	private static boolean postojilRacun = false;
 	private static boolean imalPara = false;
+	
 
 	Korisnik() {
 		brojZaArr++;
@@ -55,7 +56,7 @@ public class Korisnik {
 
 	public void setBrojRacuna(int nekiBroj) {
 		brojRacuna[brojZaArr] = nekiBroj;
-		tRacun = nekiBroj;
+		transakcijskiRacun = nekiBroj;
 	}
 
 	public void getBrojRacuna() {
