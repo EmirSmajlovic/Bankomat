@@ -7,7 +7,7 @@ public class Korisnik {
 	static double[] stanjaRacuna = new double[10];
 	String vlasnikRacuna;
 	double stanjeRacuna;
-	int tRacun;
+	int transakcijskiRacun;
 	static double privremeniBroj;
 	private static boolean jeLiRacun = false;
 	private static boolean jeliNegativan = false;
@@ -43,7 +43,7 @@ public class Korisnik {
 
 	}
 
-	public static boolean jelNegativanRacun(int nekiBroj) {
+	public static boolean jeliNegativanRacun(int nekiBroj) {
 		if (nekiBroj < 0) {
 			System.out.println("Unijeli ste nevazeci broj racuna");
 			jeliNegativan = true;

@@ -59,8 +59,8 @@ public class BankomatTest {
 		else if (stanjePosiljalac == novijiKorisnik.stanjeRacuna) {novijiKorisnik.stanjeRacuna = stanjePosiljalac - iznosNovca; noviKorisnik.stanjeRacuna = stanjePrimalac + iznosNovca;}
 		}
 		else {System.out.println("Nemate dovoljno novca na stanju");}
-		System.out.println(noviKorisnik.vlasnikRacuna + " " + noviKorisnik.stanjeRacuna + " " + noviKorisnik.tRacun);
-		System.out.println(novijiKorisnik.vlasnikRacuna + " " + novijiKorisnik.stanjeRacuna + " " + novijiKorisnik.tRacun);
+		System.out.println(noviKorisnik.vlasnikRacuna + " " + noviKorisnik.stanjeRacuna + " " + noviKorisnik.transakcijskiRacun);
+		System.out.println(novijiKorisnik.vlasnikRacuna + " " + novijiKorisnik.stanjeRacuna + " " + novijiKorisnik.transakcijskiRacun);
 		unos.close();
 	}
 
