@@ -104,12 +104,6 @@ public class Korisnik {
 	public String toString() {
 		return vlasnikRacuna + " " + racunskiBroj + " " + " " + stanjeRacuna;
 	}
-	
-	public void nekaMetoda () {
-		
-	}
-	
-	
-	
-	
 }
+	
+	
