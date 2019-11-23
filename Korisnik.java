@@ -102,9 +102,7 @@ public class Korisnik {
 		
 		return imalPara;
 	}
-	public String toString() {
-		return vlasnikRacuna + " " + racunskiBroj + " " + " " + stanjeRacuna;
-	}
 }
+
 	
 	
